@@ -1,5 +1,5 @@
-cathet1, cathet2, hypotenuse = float(input('Введите длину первого катета: ')), float(input('Введите длину второго катета: ')), float(input('Введите длину гипотенузы: '))
-if cathet1**2 + cathet2**2 == hypotenuse**2:
-    print('Площадь =', cathet1*cathet2/2, 'Периметр =', cathet1+cathet2+hypotenuse)
+katet1, katet2, gipotenuza = float(input('Введите длину первого катета: ')), float(input('Введите длину второго катета: ')), float(input('Введите длину гипотенузы: '))
+if katet1**2 + katet2**2 == gipotenuza**2:
+    print('Площадь =', katet1*katet2/2, 'Периметр =', katet1+katet2+gipotenuza)
 else:
     print('Ошибка, данный треугольник не прямоугольный')
